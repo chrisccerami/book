@@ -91,7 +91,7 @@ page to an equal sized chunk of physical memory.
 > addresses to refer to that memory.
 
 Paging is actually implemented by a part of the CPU called an ‘MMU’, for ‘memory
-management unit’. The MMU will automatically translate virtual addresses into
+management unit’. The MMU will translate virtual addresses into
 their respective physical addresses automatically; we can write all of our
 software with virtual addresses only. The MMU does this with a data structure
 called a ‘page table’. As an operating system, we load up the page table with a
